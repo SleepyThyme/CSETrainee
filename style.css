@@ -13,11 +13,36 @@ body {
 }
 
 .main-box {
+    text-align: center;
+    border-radius: 30px;
     color:white;
     background-color: navy;
 }
 
 .about-box {
+    font-size: 20px;
+    border-radius: 30px;
     color:black;
-    background-color: paleturquoise;
+    background-color: #00b25b;
+}
+
+.fun-box {
+    font-size: 20px;
+    border-radius: 30px;
+    color:black;
+    background-color: #b5c338;
+}
+
+.place-box {
+    font-size: 20px;
+    border-radius: 30px;
+    color:black;
+    background-color: #b25c00;
+}
+
+.ice-box {
+    font-size: 20px;
+    border-radius: 30px;
+    color:black;
+    background-color: #00acb2;
 }
