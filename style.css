@@ -11,6 +11,9 @@
 nav {
     background-color: rgb(50, 177, 50);
     color: rgb(7, 42, 7);
+    text-decoration: none;
+    text-align: center;
+    font-size: 50px;
     position: sticky;
     top: 0px;
 }
