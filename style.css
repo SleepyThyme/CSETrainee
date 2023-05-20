@@ -7,3 +7,10 @@
     color:black;
     background-color: paleturquoise;
 }
+
+nav {
+    background-color: rgb(50, 177, 50);
+    color: rgb(7, 42, 7);
+    position: sticky;
+    top: 0px;
+}
