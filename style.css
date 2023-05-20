@@ -23,6 +23,10 @@ nav {
     top: 0px;
 }
 
+p {
+    text-align: left;
+}
+
 .about:link {
     color:#00b25b;
     text-decoration:none;
