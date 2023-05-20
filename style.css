@@ -1,10 +1,18 @@
 
 .main-box {
     text-align: center;
-    font-size:50px;
-    border-radius: 30px;
+    font-size:40px;
+    border-radius: 50px;
     color:white;
     background-color: navy;
+}
+
+.left {
+    text-align: left;
+    font-size:40px;
+    color:white;
+    background-color: navy;
+    line-height: 1em;
 }
 
 nav {
