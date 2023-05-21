@@ -151,18 +151,18 @@ body {
 }
 
 #picture {
-    width:130px;
+    width: 150px;
     float: right;
 }
 
 #skate {
-    width:200px;
+    width:210px;
     text-align:left;
 }
 
 #bread {
-    width:300px;
-    float:right;
+    width: 300px;
+    float: right;
 }
 
 #break {
