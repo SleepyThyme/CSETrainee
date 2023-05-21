@@ -144,6 +144,11 @@ body {
     background-color: rgb(180,255,255);
 }
 
+#picture {
+    width:130px;
+    float:right;
+}
+
 #skate {
     width:200px;
     text-align:left;
