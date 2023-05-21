@@ -3,6 +3,7 @@
     float:right;
     width: 200px;
 }
+
 .main-box {
     font-size:20px;
     border-radius: 30px;
@@ -143,3 +144,7 @@ body {
     background-color: rgb(180,255,255);
 }
 
+#skate {
+    width:200px;
+    text-align:left;
+}
