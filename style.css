@@ -10,6 +10,7 @@
     color: rgb(200, 200, 200);
     background-color: rgb(40, 40, 40);
     text-align: left;
+    transition: 5s ease-in;
 }
 
 .left {
