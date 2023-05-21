@@ -1,4 +1,7 @@
-
+#snowman {
+    text-align:right;
+    float:right;
+}
 .main-box {
     font-size:20px;
     border-radius: 30px;
