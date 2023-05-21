@@ -26,7 +26,6 @@ nav {
 
 p {
     text-align: left;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .about:link {
@@ -130,5 +129,6 @@ body {
     padding: 2.5% 2.5% 2.5% 2.5%;
     color:black;
     background-color: rgb(180,255,255);
+    font-family:
 }
 
