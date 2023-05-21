@@ -98,7 +98,8 @@ p {
 body {
     background-color: rgb(0,0,0);
     transition: background-color 1s ease;
-    
+    display: flex;
+    flex-direction: column;
 }
 
 .about-box {
@@ -146,7 +147,7 @@ body {
 
 #picture {
     width:130px;
-    float:right;
+    float: right;
 }
 
 #skate {
@@ -155,6 +156,6 @@ body {
 }
 
 #bread {
-    width:200px;
+    width:300px;
     float:right;
 }
