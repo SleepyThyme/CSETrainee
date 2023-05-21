@@ -1,6 +1,9 @@
 #snowman {
     text-align:right;
     float:right;
+    width: 200px;
+    margin-top: 6%;
+    margin-right: 4%;
 }
 .main-box {
     font-size:20px;
