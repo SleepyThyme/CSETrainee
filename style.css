@@ -8,7 +8,7 @@
     color: rgb(255, 255, 255);
     background-color: rgb(80, 80, 80);
     text-align: left;
-    transition: 5s ease-in;
+    transition: 3s ease-in;
     border-style: ridge;
     border-width: 10px;
 }
