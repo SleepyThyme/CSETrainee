@@ -242,10 +242,20 @@ nav {
     animation: textclip 2.5s linear infinite;
 }
 
+#puzzle {
+    display:block;
+    position: absolute;
+    right: 15%;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    float: right;
+}
+
 .button {
     display:block;
     position: absolute;
-    right: 17%;
+    right: 14%;
     border-radius: 50%;
     height: 250px;
     width: 250px;
