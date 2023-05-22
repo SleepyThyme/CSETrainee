@@ -191,7 +191,7 @@ body {
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: textclip 3s linear infinite;
+    animation: textclip 2.5s linear infinite;
 }
 
 @keyframes textclip {
@@ -226,7 +226,7 @@ body {
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: textclip 3s linear infinite;
+    animation: textclip 2.5s linear infinite;
 }
 
 .place-box {
@@ -284,7 +284,7 @@ body {
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: textclip 3s linear infinite;
+    animation: textclip 2.75s linear infinite;
 }
 
 #butterfly {
