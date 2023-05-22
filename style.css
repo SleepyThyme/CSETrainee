@@ -15,7 +15,7 @@
 
 #snowman {
     width: 20%;
-    height: 160%;
+    height: 80%;
     float:left;
     padding-left: 2%;
 }
@@ -59,7 +59,7 @@ nav {
     background-color: white;
     text-decoration: none;
     text-align: center;
-    font-size: 40px;
+    font-size: 300%;
     position: sticky;
     top: 0px;
     border-style: none solid solid solid;
@@ -204,14 +204,14 @@ nav {
     padding-right: 3%;
     padding-bottom: 2%;
     width: 20%;
-    height: 50%;
+    height: 60%;
     float: left;
 }
 
 #butterfly {
     padding-top: 8%;
     width: 30%;
-    height: 30%;
+    height: 50%;
     float: right;
 }
 
@@ -259,7 +259,7 @@ nav {
     position: absolute;
     right: 15%;
     border-radius: 50%;
-    height: 20%;
+    height: 40%;
     width: 20%;
     float: right;
 }
@@ -316,7 +316,7 @@ nav {
 
 #bread {
     height: 50%;
-    width: 50%;
+    width: 40%;
     float: right;
 }
 
