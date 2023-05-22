@@ -172,8 +172,8 @@ body {
     padding: 1% 2.5%;
     color:rgb(10, 60, 10);
     background-color: rgb(180,255,180);
-    border-style:solid;
-    border-width:2px;
+    border-style: groove;
+    border-width: 10px;
     border-color:rgb(10, 80, 10);
 }
 
@@ -207,8 +207,8 @@ body {
     padding: 1% 2.5%;
     color:rgb(80, 80, 10);
     background-color: rgb(255,255,180);
-    border-style:solid;
-    border-width:2px;
+    border-style: groove;
+    border-width: 10px;
     border-color:rgb(100, 100, 30);
 }
 
@@ -235,8 +235,8 @@ body {
     padding: 1% 2.5%;
     color:rgb(80,50, 10);
     background-color: rgb(255,180,100);
-    border-style:solid;
-    border-width:2px;
+    border-style: groove;
+    border-width: 10px;
     border-color:rgb(100, 80, 30);
 }
 
@@ -264,8 +264,8 @@ body {
     padding: 1% 2.5%;
     color:rgb(10, 80, 80);
     background-color: rgb(180,255,255);
-    border-style:solid;
-    border-width:2px;
+    border-style: groove;
+    border-width: 10px;
     border-color:rgb(30, 100, 100);
 }
 
