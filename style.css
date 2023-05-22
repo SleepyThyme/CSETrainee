@@ -2,7 +2,7 @@
     width: 200px;
     height: 200px;
     float:left;
-    padding: 2% 3%;
+    padding-left: 2%;
 }
 
 .main-box {
@@ -35,9 +35,14 @@ nav {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-#Home {
-    margin-top: 8%;
-    text-align: center;
+#Home:hover {
+    animation: flip 2s infinite;
+}
+
+@keyframes flip {
+    0%,1% {
+      transform: rotateY(360deg) 
+    }
 }
 
 h1 {
@@ -255,7 +260,7 @@ body {
     text-align: center;
     font-size: 25px;
     border-radius: 30px;
-    margin: 5% 10% 10%;
+    margin: 5% 10%;
     padding: 1% 2.5%;
     color:rgb(10, 80, 80);
     background-color: rgb(180,255,255);
