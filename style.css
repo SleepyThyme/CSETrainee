@@ -1,6 +1,6 @@
 #snowman {
-    text-align:right;
-    float:right;
+    text-align: right;
+    float: right;
     width: 200px;
 }
 
@@ -16,15 +16,13 @@
 }
 
 nav {
-    display:flex;
-    flex-direction: row;
     background-color: white;
     text-decoration: none;
     text-align: center;
     font-size: 40px;
     position: sticky;
     top: 0px;
-    border-style:solid;
+    border-style: solid;
     border-color: rgb(50,50,50);
     border-width:2px;
     padding:10px 0px;
@@ -48,60 +46,103 @@ p {
 }
 
 .center {
-    text-align:center;
+    text-align: center;
 }
 
+.about {
+    color:#005f31;
+    transition: 0.5s linear;
+}
 .about:link {
     color:#005f31;
-    text-decoration:none;
+    text-decoration: none;
 }
 .about:visited {
     color:#005f31;
-    text-decoration:none;
+    text-decoration: none;
 }
 .about:hover {
+    font-size: 0;
     color:#00b25b;
-    text-decoration:none;
+    text-decoration: none;
+}
+.about:hover:after {
+    content:attr(data-hover);
+    font-size: 40px;
+    color:#00b25b;
+    text-decoration: none;
 }
 
+.fun {
+    color:#555e00;
+    transition: 0.5s linear;
+}
 .fun:link {
     color:#555e00;
-    text-decoration:none;
+    text-decoration: none;
 }
 .fun:visited {
     color:#555e00;
-    text-decoration:none;
+    text-decoration: none;
 }
 .fun:hover {
+    font-size:0;
     color:#b5c338;
-    text-decoration:none;
+    text-decoration: none;
+}
+.fun:hover:after {
+    content:attr(data-hover);
+    font-size: 40px;
+    color:#b5c338;
+    text-decoration: none;
 }
 
+.place {
+    color:#653502;
+    transition: 0.5s linear;
+}
 .place:link {
     color:#653502;
-    text-decoration:none;
+    text-decoration: none;
 }
 .place:visited {
     color:#653502;
-    text-decoration:none;
+    text-decoration: none;
 }
 .place:hover {
+    font-size:0;
     color:#b25c00;
-    text-decoration:none;
+    text-decoration: none;
+}
+.place:hover:after {
+    content:attr(data-hover);
+    font-size: 40px;
+    color:#b25c00;
+    text-decoration: none;
 }
 
-
+.ice {
+    color: #00787c;
+    transition: 0.5s linear;
+}
 .ice:link {
     color:#00787c;
-    text-decoration:none;
+    text-decoration: none;
 }
 .ice:visited {
     color:#00787c;
-    text-decoration:none;
+    text-decoration: none;
 }
 .ice:hover {
+    font-size: 0px;
     color:#00acb2;
-    text-decoration:none;
+    text-decoration: none;
+}
+.ice:hover:after {
+    content:attr(data-hover);
+    font-size: 40px;
+    color:#00acb2;
+    text-decoration: none;
 }
 
 
