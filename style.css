@@ -290,7 +290,7 @@ body {
 #butterfly {
     width: 300px;
     height: 255px;
-    float:center;
+    float: center;
 }
 
 #picture {
@@ -302,8 +302,8 @@ body {
 }
 
 #skate {
-    width:230px;
-    text-align:left;
+    width: 230px;
+    text-align: left;
 }
 
 #grass {
@@ -313,7 +313,7 @@ body {
 }
 
 #grass:hover {
-    opacity:0;
+    opacity: 0;
     width: 300px;
     float: right;
     padding-bottom: 2%;
