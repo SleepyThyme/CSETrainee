@@ -201,18 +201,17 @@ nav {
 }
 
 #picture {
-    padding-top: 4%;
     padding-right: 3%;
     padding-bottom: 2%;
-    width: 120px;
-    height: 200px;
+    width: 25%;
+    height: 50%;
     float: left;
 }
 
 #butterfly {
-    padding-top: 6%;
-    width: 200px;
-    height: 180px;
+    padding-top: 8%;
+    width: 30%;
+    height: 30%;
     float: right;
 }
 
@@ -250,18 +249,16 @@ nav {
     position: absolute;
     right: 65%;
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
     float: right;
 }
 
 .button {
     display:block;
     position: absolute;
-    right: 14%;
+    right: 15%;
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
+    height: 20%;
+    width: 20%;
     float: right;
 }
 
@@ -269,7 +266,8 @@ nav {
     z-index: 1;
     display: block;
     position: relative;
-    width: 200px;
+    width: 50%;
+    height: 50%;
     opacity: 1;
     float: right;
     padding-bottom: 2%;
@@ -278,8 +276,8 @@ nav {
 #grass:hover {
     z-index: 0;
     opacity: 0;
-    width: 300px;
-    height: 300px;
+    width: 40%;
+    height: 30%;
     float: right;
     padding-bottom: 2%;
 }
@@ -315,7 +313,8 @@ nav {
 }
 
 #bread {
-    width: 300px;
+    height: 50%;
+    width: 50%;
     float: right;
 }
 
@@ -349,7 +348,7 @@ nav {
 }
 
 #skate {
-    width: 230px;
+    width: 50%;
     text-align: left;
 }
 
