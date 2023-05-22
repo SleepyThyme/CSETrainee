@@ -12,10 +12,12 @@
     border-radius: 30px;
     margin: 1% 1% 1% 1%;
     padding: 1% 1% 1% 1%;
-    color: rgb(200, 200, 200);
-    background-color: rgb(40, 40, 40);
+    color: rgb(255, 255, 255);
+    background-color: rgb(80, 80, 80);
     text-align: left;
     transition: 5s ease-in;
+    border-style: ridge;
+    border-width: 10px;
 }
 
 nav {
