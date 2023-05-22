@@ -317,6 +317,7 @@ p {
 #video {
     height: 30%;
     width: 50%;
+    float: bottom;
 }
 
 #break {
