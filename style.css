@@ -14,8 +14,8 @@
 }
 
 #snowman {
-    width: 20%;
-    height: 80%;
+    width: 180px;
+    height: 200px;
     float:left;
     padding-left: 2%;
 }
@@ -213,6 +213,7 @@ nav {
     width: 30%;
     height: 50%;
     float: right;
+    padding-bottom: 2%;
 }
 
 .fun-box {
@@ -259,7 +260,7 @@ nav {
     position: absolute;
     right: 15%;
     border-radius: 50%;
-    height: 40%;
+    height: 35%;
     width: 20%;
     float: right;
 }
@@ -315,7 +316,7 @@ nav {
 }
 
 #bread {
-    height: 50%;
+    height: 60%;
     width: 40%;
     float: right;
 }
@@ -350,7 +351,8 @@ nav {
 }
 
 #skate {
-    width: 50%;
+    height: 50%;
+    width: 30%;
     text-align: left;
 }
 
