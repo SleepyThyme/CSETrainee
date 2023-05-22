@@ -328,6 +328,12 @@ p {
     height: 50%;
     width: 30%;
     text-align: left;
+    float: bottom;
+}
+
+#video {
+    height: 30%;
+    width: 50%;
 }
 
 #break {
