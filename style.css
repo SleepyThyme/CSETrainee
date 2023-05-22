@@ -1,29 +1,27 @@
-nav {
+.nav {
     z-index: 2;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color: white;
-    text-decoration: none;
-    text-align: center;
-    font-size: 300%;
+    background-color: rgb(200,200,200);
+    overflow: hidden;
     position: sticky;
     top: 0px;
-    border-style: none solid solid solid;
-    border-color: rgb(90,90,90);
-    border-width: 0px 2px 3px 2px;
-    padding:10px 0px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-.about {
-    color:#005f31;
-    transition: 0.75s ease-out;
-}
-.about:link {
-    color:#005f31;
+.nav a {
+    float:left;
+    display:block;
+    color:white;
+    text-align: center;
+    padding:14px 16px;
     text-decoration: none;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
+
+.about.active {
+    background-color: #00b25b;
+}
+
 .about:visited {
     color:#005f31;
     text-decoration: none;
@@ -35,19 +33,11 @@ nav {
 }
 .about:hover:after {
     content:attr(data-hover);
-    font-size: 40px;
-    color:#00b25b;
+    font-size: 20px;
+    color:#005f31;
     text-decoration: none;
 }
 
-.fun {
-    color:#555e00;
-    transition: 0.75s ease-out;
-}
-.fun:link {
-    color:#555e00;
-    text-decoration: none;
-}
 .fun:visited {
     color:#555e00;
     text-decoration: none;
@@ -59,19 +49,11 @@ nav {
 }
 .fun:hover:after {
     content:attr(data-hover);
-    font-size: 40px;
+    font-size: 20px;
     color:#b5c338;
     text-decoration: none;
 }
 
-.place {
-    color:#653502;
-    transition: 0.75s ease-out;
-}
-.place:link {
-    color:#653502;
-    text-decoration: none;
-}
 .place:visited {
     color:#653502;
     text-decoration: none;
@@ -83,19 +65,11 @@ nav {
 }
 .place:hover:after {
     content:attr(data-hover);
-    font-size: 40px;
+    font-size: 20px;
     color:#b25c00;
     text-decoration: none;
 }
 
-.ice {
-    color: #00787c;
-    transition: 0.75s ease-out;
-}
-.ice:link {
-    color:#00787c;
-    text-decoration: none;
-}
 .ice:visited {
     color:#00787c;
     text-decoration: none;
@@ -107,7 +81,7 @@ nav {
 }
 .ice:hover:after {
     content:attr(data-hover);
-    font-size: 40px;
+    font-size: 20px;
     color:#00acb2;
     text-decoration: none;
 }
