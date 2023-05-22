@@ -16,6 +16,8 @@
 }
 
 nav {
+    display:flex;
+    flex-direction: row;
     background-color: white;
     text-decoration: none;
     text-align: center;
@@ -116,7 +118,7 @@ body {
     border-radius: 30px;
     margin: 10% 10% 10% 10%;
     padding: 2.5% 2.5% 2.5% 2.5%;
-    color:rgb(10, 80, 10);
+    color:rgb(10, 60, 10);
     background-color: rgb(180,255,180);
     border-style:solid;
     border-width:2px;
@@ -130,7 +132,7 @@ body {
     border-radius: 30px;
     margin: 10% 10% 10% 10%;
     padding: 2.5% 2.5% 2.5% 2.5%;
-    color:rgb(100, 100, 30);
+    color:rgb(80, 80, 10);
     background-color: rgb(255,255,180);
     border-style:solid;
     border-width:2px;
@@ -143,7 +145,7 @@ body {
     border-radius: 30px;
     margin: 10% 10% 10% 10%;
     padding: 2.5% 2.5% 2.5% 2.5%;
-    color:rgb(100, 80, 30);
+    color:rgb(80,50, 10);
     background-color: rgb(255,180,100);
     border-style:solid;
     border-width:2px;
@@ -156,7 +158,7 @@ body {
     border-radius: 30px;
     margin: 10% 10% 10% 10%;
     padding: 2.5% 2.5% 2.5% 2.5%;
-    color:rgb(30, 100, 100);
+    color:rgb(10, 80, 80);
     background-color: rgb(180,255,255);
     border-style:solid;
     border-width:2px;
