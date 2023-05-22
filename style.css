@@ -254,7 +254,6 @@ nav {
 }
 
 .button {
-    z-index: 1;
     display:block;
     position: absolute;
     right: 14%;
