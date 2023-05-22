@@ -64,7 +64,7 @@ p {
 
 .about {
     color:#005f31;
-    transition: 0.5s ease-out;
+    transition: 0.75s ease-out;
 }
 .about:link {
     color:#005f31;
@@ -88,7 +88,7 @@ p {
 
 .fun {
     color:#555e00;
-    transition: 0.5s ease-out;
+    transition: 0.75s ease-out;
 }
 .fun:link {
     color:#555e00;
@@ -112,7 +112,7 @@ p {
 
 .place {
     color:#653502;
-    transition: 0.5s ease-out;
+    transition: 0.75s ease-out;
 }
 .place:link {
     color:#653502;
@@ -136,7 +136,7 @@ p {
 
 .ice {
     color: #00787c;
-    transition: 0.5s ease-out;
+    transition: 0.75s ease-out;
 }
 .ice:link {
     color:#00787c;
