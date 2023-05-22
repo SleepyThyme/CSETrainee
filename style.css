@@ -290,7 +290,7 @@ body {
 #butterfly {
     width: 300px;
     height: 255px;
-    float: center;
+    float: right;
 }
 
 #picture {
@@ -306,8 +306,22 @@ body {
     text-align: left;
 }
 
+.button {
+    display:block;
+    position: absolute;
+    right: 18%;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    float: right;
+}
+
 #grass {
+    display: block;
+    position: relative;
     width: 300px;
+    opacity: 1;
+    transition: opacity 1s ease;
     float: right;
     padding-bottom: 2%;
 }
@@ -315,9 +329,11 @@ body {
 #grass:hover {
     opacity: 0;
     width: 300px;
+    height: 300px;
     float: right;
     padding-bottom: 2%;
 }
+
 
 #bread {
     width: 300px;
