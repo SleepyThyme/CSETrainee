@@ -52,6 +52,7 @@ p {
 }
 
 nav {
+    z-index: 2;
     display:flex;
     flex-direction: row;
     justify-content: space-around;
@@ -61,9 +62,9 @@ nav {
     font-size: 40px;
     position: sticky;
     top: 0px;
-    border-style: solid;
-    border-color: rgb(50,50,50);
-    border-width:2px;
+    border-style: outset;
+    border-color: rgb(80,80,80);
+    border-width: 5px;
     padding:10px 0px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
@@ -253,6 +254,7 @@ nav {
 }
 
 .button {
+    z-index: 1;
     display:block;
     position: absolute;
     right: 14%;
@@ -263,22 +265,24 @@ nav {
 }
 
 #grass {
+    z-index: 1;
     display: block;
     position: relative;
     width: 300px;
     opacity: 1;
-    transition: opacity 1s ease;
     float: right;
     padding-bottom: 2%;
 }
 
 #grass:hover {
+    z-index: 0;
     opacity: 0;
     width: 300px;
     height: 300px;
     float: right;
     padding-bottom: 2%;
 }
+
 
 .place-box {
     text-align: center;
