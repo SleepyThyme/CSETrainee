@@ -175,6 +175,7 @@ body {
     #004b23 100%
     );
     background-size: 200% auto;
+    background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: textclip 3s linear infinite;
@@ -209,6 +210,7 @@ body {
     #ff7b00 100%
     );
     background-size: 200% auto;
+    background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: textclip 3s linear infinite;
@@ -237,6 +239,7 @@ body {
     #3c1518 100%
     );
     background-size: 200% auto;
+    background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: textclip 2s linear infinite;
@@ -265,6 +268,7 @@ body {
     #03045e 100%
     );
     background-size: 200% auto;
+    background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: textclip 3s linear infinite;
