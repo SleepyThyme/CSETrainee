@@ -166,6 +166,26 @@ body {
     border-color:rgb(10, 80, 10);
 }
 
+.animate-about {
+    background-image: linear-gradient(
+    -225deg,
+    #ccff33 0%,
+    #70e000 29%,
+    #007200 67%,
+    #004b23 100%
+    );
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 3s linear infinite;
+}
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
 .fun-box {
     text-align: center;
     font-family: sans-serif;
@@ -178,6 +198,20 @@ body {
     border-style:solid;
     border-width:2px;
     border-color:rgb(100, 100, 30);
+}
+
+.animate-fun {
+    background-image: linear-gradient(
+    -225deg,
+    #ffea00 0%,
+    #ffc300 29%,
+    #ff9500 67%,
+    #ff7b00 100%
+    );
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 3s linear infinite;
 }
 
 .place-box {
@@ -193,6 +227,21 @@ body {
     border-color:rgb(100, 80, 30);
 }
 
+.animate-hi {
+    background-image: linear-gradient(
+    -225deg,
+    #f2f3ae 0%,
+    #d58936 25%,
+    #a44200 50%,
+    #69140e 75%,
+    #3c1518 100%
+    );
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+}
+
 .ice-box {
     text-align: center;
     font-size: 25px;
@@ -204,6 +253,21 @@ body {
     border-style:solid;
     border-width:2px;
     border-color:rgb(30, 100, 100);
+}
+
+.animate-ice {
+    background-image: linear-gradient(
+    -225deg,
+    #caf0f8 0%,
+    #90e0ef 25%,
+    #00b4d8 50%,
+    #0077b6 75%,
+    #03045e 100%
+    );
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 3s linear infinite;
 }
 
 #butterfly {
