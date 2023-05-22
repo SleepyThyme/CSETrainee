@@ -1,14 +1,17 @@
 #snowman {
-    text-align: right;
-    float: right;
     width: 200px;
+    height: 200px;
+    float:left;
+    padding: 2% 3%;
 }
 
 .main-box {
-    font-size:20px;
+    display: flex;
+    flex-direction: row;
+    font-size:30px;
     border-radius: 30px;
     margin: 1% 1% 1% 1%;
-    padding: 10% 10% 10% 10%;
+    padding: 1% 1% 1% 1%;
     color: rgb(200, 200, 200);
     background-color: rgb(40, 40, 40);
     text-align: left;
