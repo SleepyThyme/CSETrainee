@@ -18,17 +18,10 @@
     
 }
 
-.about.active {
-    background-color: #00b25b;
-}
-
-.about:visited {
-    color:#005f31;
-    text-decoration: none;
-}
 .about:hover {
     font-size: 0;
     color:#00b25b;
+    transition: 0.75s ease-out;
     text-decoration: none;
 }
 .about:hover:after {
@@ -38,51 +31,42 @@
     text-decoration: none;
 }
 
-.fun:visited {
-    color:#555e00;
-    text-decoration: none;
-}
 .fun:hover {
     font-size:0;
-    color:#b5c338;
+    color:#abbe00;
+    transition: 0.75s ease-out;
     text-decoration: none;
 }
 .fun:hover:after {
     content:attr(data-hover);
     font-size: 20px;
-    color:#b5c338;
+    color:#727c1a;
     text-decoration: none;
 }
 
-.place:visited {
-    color:#653502;
-    text-decoration: none;
-}
 .place:hover {
     font-size:0;
     color:#b25c00;
+    transition: 0.75s ease-out;
     text-decoration: none;
 }
 .place:hover:after {
     content:attr(data-hover);
     font-size: 20px;
-    color:#b25c00;
+    color:#653502;
     text-decoration: none;
 }
 
-.ice:visited {
-    color:#00787c;
-    text-decoration: none;
-}
 .ice:hover {
     font-size: 0px;
     color:#00acb2;
+    transition: 0.75s ease-out;
     text-decoration: none;
 }
 .ice:hover:after {
     content:attr(data-hover);
     font-size: 20px;
-    color:#00acb2;
+    color:#00787c;
     text-decoration: none;
 }
 
