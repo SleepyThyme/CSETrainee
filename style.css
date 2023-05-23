@@ -222,7 +222,7 @@ p {
     display: block;
     position: absolute;
     height: 80%;
-    width: 70%;
+    width: 60%;
     border-radius: 50%;
     float: right;
 }
@@ -230,7 +230,7 @@ p {
 .button {
     display:block;
     position: absolute;
-    right: 15%;
+    right: 13%;
     border-radius: 50%;
     height: 35%;
     width: 25%;
