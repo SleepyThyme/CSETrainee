@@ -219,7 +219,7 @@ p {
 }
 
 #puzzle {
-    display:block;
+    display: block;
     position: absolute;
     right: 65%;
     height: 80%;
@@ -251,8 +251,6 @@ p {
 #grass:hover {
     z-index: 0;
     opacity: 0;
-    width: 40%;
-    height: 30%;
     float: right;
 }
 
