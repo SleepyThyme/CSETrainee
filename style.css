@@ -304,8 +304,8 @@ p {
 #puzzle {
     display: block;
     position: absolute;
-    height: 60%;
-    width: 47.5%;
+    height: 70%;
+    width: 50%;
     border-radius: 50%;
     float: right;
 }
@@ -313,7 +313,7 @@ p {
 .button {
     display:block;
     position: absolute;
-    right: 15%;
+    right: 13%;
     border-radius: 50%;
     height: 35%;
     width: 25%;
