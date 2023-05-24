@@ -296,7 +296,7 @@ p {
     display: block;
     position: absolute;
     height: 80%;
-    width: 60%;
+    width: 67.5%;
     border-radius: 50%;
     float: right;
 }
@@ -304,7 +304,8 @@ p {
 .button {
     display:block;
     position: absolute;
-    right: 13%;
+    right: 15%;
+    padding-top: 3%;
     border-radius: 50%;
     height: 35%;
     width: 25%;
@@ -358,6 +359,7 @@ p {
 }
 
 #bread {
+    padding-top: 8%;
     height: 60%;
     width: 30%;
     float: right;
