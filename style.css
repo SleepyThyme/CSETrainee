@@ -9,7 +9,6 @@
 .nav a {
     float:left;
     display:block;
-    color:white;
     text-align: center;
     padding:15px 20px;
     text-decoration: none;
@@ -17,55 +16,145 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.about {
+    color:white;
+}
+
 .about:hover {
     font-size: 0;
-    color:#00b25b;
+    background-image: linear-gradient(
+    -90deg,
+    rgb(200,200,200), rgb(200,200,200)
+    );
+    background-size: 200% auto;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     transition: 0.75s ease-out;
     text-decoration: none;
 }
 .about:hover:after {
     content:attr(data-hover);
     font-size: 20px;
-    color:#005f31;
+    background-image: linear-gradient(
+    -90deg,
+    #ccff33 0%,
+    #70e000 33%,
+    #007200 67%,
+    #004b23 100%
+    );
+    background-size: 200% auto;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.25s reverse infinite;
     text-decoration: none;
 }
 
+.fun {
+    color:white;
+}
+
 .fun:hover {
-    font-size:0;
-    color:#abbe00;
+    font-size: 0;
+    background-image: linear-gradient(
+    -90deg,
+    rgb(200,200,200), rgb(200,200,200)
+    );
+    background-size: 200% auto;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     transition: 0.75s ease-out;
     text-decoration: none;
 }
 .fun:hover:after {
     content:attr(data-hover);
     font-size: 20px;
-    color:#727c1a;
+    background-image: linear-gradient(
+    -90deg,
+    #ffea00 0%,
+    #ffc300 33%,
+    #ff9500 67%,
+    #ff7b00 100%
+    );
+    background-size: 200% auto;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.25s reverse infinite;
     text-decoration: none;
 }
 
+.place {
+    color:white;
+}
+
 .place:hover {
-    font-size:0;
-    color:#b25c00;
+    font-size: 0;
+    background-image: linear-gradient(
+    -90deg,
+    rgb(200,200,200), rgb(200,200,200)
+    );
+    background-size: 200% auto;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     transition: 0.75s ease-out;
     text-decoration: none;
 }
 .place:hover:after {
     content:attr(data-hover);
     font-size: 20px;
-    color:#653502;
+    background-image: linear-gradient(
+    -90deg,
+    #f2f3ae 0%,
+    #d58936 25%,
+    #a44200 50%,
+    #69140e 75%,
+    #3c1518 100%
+    );
+    background-size: 200% auto;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.25s reverse infinite;
     text-decoration: none;
 }
 
+.ice {
+    color:white;
+}
+
 .ice:hover {
-    font-size: 0px;
-    color:#00acb2;
+    font-size: 0;
+    background-image: linear-gradient(
+    -90deg,
+    rgb(200,200,200), rgb(200,200,200)
+    );
+    background-size: 200% auto;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     transition: 0.75s ease-out;
     text-decoration: none;
 }
 .ice:hover:after {
     content:attr(data-hover);
     font-size: 20px;
-    color:#00787c;
+    background-image: linear-gradient(
+    -90deg,
+    #caf0f8 0%,
+    #90e0ef 25%,
+    #00b4d8 50%,
+    #0077b6 75%,
+    #03045e 100%
+    );
+    background-size: 200% auto;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.25s reverse infinite;
     text-decoration: none;
 }
 
@@ -74,7 +163,7 @@
     flex-direction: row;
     font-size: 20px;
     border-radius: 30px;
-    margin: 1% 1% 1% 1%;
+    margin: 3% 1% 2% 1%;
     padding: 1% 1% 1% 10%;
     color: rgb(255, 255, 255);
     background-color: rgb(80,80,80);
@@ -94,21 +183,6 @@
 
 #Home:hover {
     animation: flip 2s infinite;
-}
-
-#Home {
-    background-image: linear-gradient(
-    -90deg,
-    rgb(0,0,0) 0%,
-    rgb(100,100,100) 33%,
-    rgb(200,200,200) 67%,
-    rgb(100,100,100) 100%
-    );
-    background-size: 200% auto;
-    background-clip: border-box;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: textclip 1.25s reverse infinite;
 }
 
 @keyframes flip {
