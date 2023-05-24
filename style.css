@@ -1,5 +1,8 @@
 .nav {
     z-index: 2;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
     background-color: rgb(200,200,200);
     overflow: hidden;
     position: sticky;
