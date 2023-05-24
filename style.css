@@ -7,6 +7,10 @@
     overflow: hidden;
     position: sticky;
     top: 0px;
+    border-style: solid;
+    border-color: rgb(80,80,80);
+    border-width: 3px;
+    border-top: none;
 }
 
 .nav a {
@@ -427,4 +431,15 @@ p {
 #bottom {
     color:white;
     font-size: 10px;
+}
+
+#discord {
+    height: 30px;
+    text-decoration: none;
+    padding-right: 2%;
+}
+
+#instagram {
+    height: 33px;
+    text-decoration: none;
 }
