@@ -38,7 +38,7 @@
 }
 .about:hover:after {
     content:attr(data-hover);
-    font-size: 20px;
+    font-size: 25px;
     background-image: linear-gradient(
     -20deg,
     #ccff33 0%,
@@ -74,7 +74,7 @@
 
 .fun:hover:after {
     content:attr(data-hover);
-    font-size: 20px;
+    font-size: 25px;
     background-image: linear-gradient(
     190deg,
     #c4ebf1 0%,
@@ -111,7 +111,7 @@
 }
 .place:hover:after {
     content:attr(data-hover);
-    font-size: 20px;
+    font-size: 25px;
     background-image: linear-gradient(
     350deg,
     #f2f3ae 0%,
@@ -146,7 +146,7 @@
 }
 .ice:hover:after {
     content:attr(data-hover);
-    font-size: 20px;
+    font-size: 25px;
     background-image: linear-gradient(
     -90deg,
     #caf0f8 0%,
