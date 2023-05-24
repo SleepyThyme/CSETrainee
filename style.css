@@ -217,7 +217,7 @@ p {
     text-align: center;
     font-size: 25px;
     border-radius: 30px;
-    margin: 1% 10%;
+    margin: 1% 15%;
     padding: 1% 2.5%;
     color:rgb(10, 60, 10);
     background-color: rgb(180,255,180);
@@ -268,7 +268,7 @@ p {
     font-family: sans-serif;
     font-size: 25px;
     border-radius: 30px;
-    margin: 1% 10%;
+    margin: 1% 15%;
     padding: 1% 2.5%;
     color:rgb(80, 80, 10);
     background-color: rgb(255,255,180);
@@ -332,7 +332,7 @@ p {
     text-align: center;
     font-size: 25px;
     border-radius: 30px;
-    margin: 1% 10%;
+    margin: 1% 15%;
     padding: 1% 2.5%;
     color:rgb(80,50, 10);
     background-color: rgb(255,180,100);
@@ -359,7 +359,7 @@ p {
 
 #bread {
     height: 60%;
-    width: 40%;
+    width: 30%;
     float: right;
 }
 
@@ -367,7 +367,7 @@ p {
     text-align: center;
     font-size: 25px;
     border-radius: 30px;
-    margin: 1% 10%;
+    margin: 1% 15%;
     padding: 1% 2.5%;
     color:rgb(10, 80, 80);
     background-color: rgb(180,255,255);
